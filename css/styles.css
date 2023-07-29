@@ -152,7 +152,12 @@ img {
 /* 1 Section */
 .first-part.section {
   background-color: var(--dark);
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7), 
+rgba(46, 47, 66, 0.7)), url(../images/hero-bg.jpg);
   padding: 188px 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover 
 }
 
 .header-top {
@@ -291,7 +296,37 @@ img {
   padding: 32px 0;
   text-align: center;
 }
+.container-icon-team{
 
+}
+.social-links-team {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.social-list-icon{
+display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+
+.social-links{
+  display: flex;
+  fill: var(--cloud);
+  background-color: var(--iris);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+}
+.card-icons{
+
+}
 /* Footer */
 
 .ftr-page{
@@ -306,15 +341,41 @@ img {
 .ftr-page .logo-span {
   color: var(--light);
 }
+.footer-top{
 
-.ftr-page-text {
+}
+
+.footer-icon-text{
+  display: inline;
+  justify-content: center;
+  text-align: center;
+
+}
+.footer-heading {
   color: var(--light, #f4f4fd);
   font-size: 16px;
   line-height: 1.5; 
   letter-spacing: 0.02em; 
   width: 264px;
+  margin-right: 76px;
 }
 
+.social-icon{
+  display: inline;
+  align-items: center; 
+}
+.social-icon .list {
+
+}
+
+.footer-icon-container{
+  height: 100%;
+  padding-bottom: 100px;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+
+}
 .portfol{
   padding-top: 96px;
   padding-bottom: 120px;
@@ -326,6 +387,7 @@ img {
   justify-content: center;
 }
 .portfol-list-item{
+  
 }
 
 .portfol-button {
