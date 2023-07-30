@@ -342,7 +342,7 @@ display: flex;
 .customers{
   padding: 120px 0;
 }
-.customers-title{
+.customers-title {
   color: var(--navy-blue);
   text-align: center;
   font-size: 36px;
