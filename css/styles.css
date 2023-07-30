@@ -1,16 +1,16 @@
 :root {
-  --primary_brand: #4D5AE5;
-  --pressed-state: #404BBF;
-  --dark: #2E2F42;
-  --success: #31D0AA;
-  --text: #434455;
-  --subtle-text: #8E8F99;
-  --accent: #E7E9FC;
-  --light: #F4F4FD;
-  --modal-overlay: #2E2F42;
-  --hero-background: #2E2F42;
-  --white-background: #FFFFFF;
-  --modal-background: #FCFCFC;
+  --iris: #4D5AE5;
+  --ocean: #404BBF;
+  --navy-blue: #2E2F42;
+  --green: #31D0AA;
+  --slate: #434455;
+  --light-slate: #8E8F99;
+  --cornflower: #E7E9FC;
+  --cloud: #F4F4FD;
+  --navy-blue-modal: #2E2F42;
+  --grey: #2E2F42;
+  --white: #FFFFFF;
+  --dairy: #FCFCFC;
 }
 
 body {
@@ -71,7 +71,8 @@ img {
 
 /* Header */
 .header {
-  border-bottom: 1px solid var(--accent, #e7e9fc);
+  border-bottom: 1px solid var(--cornflower, #e7e9fc);
+  box-shadow:0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .header .container {
@@ -91,11 +92,11 @@ img {
 }
 
 .logo-span {
-  color: var(--dark);
+  color: var(--navy-blue);
 }
 
 .logotype {
-  color: var(--primary_brand);
+  color: var(--iris);
   font-family: Raleway, sans-serif;
   font-size: 18px;
   font-weight: 800;
@@ -114,7 +115,7 @@ img {
 }
 
 .header-list-a {
-  color: var(--dark);
+  color: var(--navy-blue);
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
@@ -125,7 +126,7 @@ img {
 
 .header-list-a:hover, 
 .header-list-a:focus {
-  color:var(--pressed-state);
+  color:var(--ocean);
 }
 
 /* Address */
@@ -145,13 +146,13 @@ img {
 }
 .address-link:hover,
 .address-link:focus {
-  color: var(--pressed-state);
+  color: var(--ocean);
 }
 
 /* Main content */
 /* 1 Section */
 .first-part.section {
-  background-color: var(--dark);
+  background-color: var(--navy-blue);
   background-image: linear-gradient(rgba(46, 47, 66, 0.7), 
 rgba(46, 47, 66, 0.7)), url(../images/hero-bg.jpg);
   padding: 188px 0;
@@ -193,8 +194,8 @@ rgba(46, 47, 66, 0.7)), url(../images/hero-bg.jpg);
 .orders:hover,
 .orders:focus {
   
-  background-color: var(--pressed-state);
-  color: var(--white-background);
+  background-color: var(--ocean);
+  color: var(--white);
 }
 /* 2 Section */
 .second-part.section {
@@ -211,7 +212,7 @@ rgba(46, 47, 66, 0.7)), url(../images/hero-bg.jpg);
 }
 
 .second-part-subtitle{
-  color: var(--dark);
+  color: var(--navy-blue);
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2; 
@@ -232,7 +233,7 @@ rgba(46, 47, 66, 0.7)), url(../images/hero-bg.jpg);
 }
 
 .third-part-title{
-  color: var(--dark);
+  color: var(--navy-blue);
   font-size: 36px;
   text-align: center;
   text-transform: capitalize;
@@ -252,13 +253,13 @@ rgba(46, 47, 66, 0.7)), url(../images/hero-bg.jpg);
 
 /* 3 Section */
 .our-team{
-  background-color: var(--light);
+  background-color: var(--cloud);
   padding-top: 120px;
   padding-bottom: 120px;
 }
 
 .our-team-title{
-  color: var(--dark);
+  color: var(--navy-blue);
   text-align: center;
   font-size: 36px;
   line-height: 1.11;
@@ -271,12 +272,12 @@ rgba(46, 47, 66, 0.7)), url(../images/hero-bg.jpg);
   gap: 24px;
 }
 .our-team-list-item{
-  background-color: var(--white-background);
+  background-color: var(--white);
   border-radius: 0px 0px 4px 4px;
 }
 
 .our-team-subtitle{
-  color: var(--dark);
+  color: var(--navy-blue);
   text-align: center;
   font-size: 20px;
   font-weight: 500;
@@ -299,13 +300,7 @@ rgba(46, 47, 66, 0.7)), url(../images/hero-bg.jpg);
 .container-icon-team{
 
 }
-.social-links-team {
-  display: flex;
-  gap: 24px;
-  justify-content: center;
-  align-items: center;
-  flex-shrink: 0;
-}
+
 
 .social-list-icon{
 display: flex;
@@ -330,7 +325,7 @@ display: flex;
 /* Footer */
 
 .ftr-page{
-  background: var(--dark);
+  background: var(--navy-blue);
   padding-top: 100px;
   padding-bottom: 100px;
 }
@@ -339,7 +334,7 @@ display: flex;
   display: inline-block;
 }
 .ftr-page .logo-span {
-  color: var(--light);
+  color: var(--cloud);
 }
 .footer-top{
 
@@ -352,7 +347,7 @@ display: flex;
 
 }
 .footer-heading {
-  color: var(--light, #f4f4fd);
+  color: var(--cloud, #f4f4fd);
   font-size: 16px;
   line-height: 1.5; 
   letter-spacing: 0.02em; 
@@ -391,11 +386,11 @@ display: flex;
 }
 
 .portfol-button {
-  border: 1px solid var(--accent, #e7e9fc);
+  border: 1px solid var(--cornflower, #e7e9fc);
   border-radius: 4px;
-  background: var(--light, #f4f4fd);
+  background: var(--cloud, #f4f4fd);
 
-  color: var(--primary_brand, #4d5ae5);
+  color: var(--iris, #4d5ae5);
   text-align: center;
 
   font-family: Roboto, sans-serif;
@@ -409,8 +404,8 @@ display: flex;
 }
 .portfol-button:hover,
 .portfol-button:focus {
-  background: var(--pressed-state, #404bbf);
-  color: var(--white-background, #fff);
+  background: var(--ocean, #404bbf);
+  color: var(--white, #fff);
   border: 1px solid transparent;
   box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
     0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
@@ -424,13 +419,13 @@ display: flex;
 }
 .portfol-container {
   padding: 32px 16px;
-  border: 1px solid var(--accent, #e7e9fc);
+  border: 1px solid var(--cornflower, #e7e9fc);
   border-top: none;
 }
 
 
 .portfol-subtitle {
-  color: var(--dark);
+  color: var(--navy-blue);
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
@@ -439,7 +434,7 @@ display: flex;
 }
 
 .portfol-text {
-  color: var(--text);
+  color: var(--slate);
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em; 
