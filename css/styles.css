@@ -98,7 +98,7 @@ div{
   color: var(--navy-blue);
 }
 
-.logotype {
+.logotype{
   color: var(--ocean,#404bbf);
   position: relative;
   font-family: Raleway, sans-serif;
