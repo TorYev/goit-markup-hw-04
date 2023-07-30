@@ -157,6 +157,7 @@ div{
 /* Main content */
 /* 1 Section */
 .first-part.section {
+  max-width: 1440px;
   background-color: var(--navy-blue);
   background-image: linear-gradient(rgba(46, 47, 66, 0.7), 
 rgba(46, 47, 66, 0.7)), url(../images/hero-bg.jpg);
@@ -194,6 +195,7 @@ rgba(46, 47, 66, 0.7)), url(../images/hero-bg.jpg);
   padding: 16px 22px;
   min-width: 169px;
   height: 56px;
+  transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .orders:hover,
