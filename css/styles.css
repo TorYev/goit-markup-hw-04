@@ -99,7 +99,8 @@ div{
 }
 
 .logotype {
-  color: var(--iris);
+  color: var(--ocean,#404bbf);
+  position: relative;
   font-family: Raleway, sans-serif;
   font-size: 18px;
   font-weight: 800;
@@ -107,6 +108,7 @@ div{
   letter-spacing: 0.03em;
   text-transform: uppercase;
   margin-right: 76px;
+
 }
 
 .header-list{
