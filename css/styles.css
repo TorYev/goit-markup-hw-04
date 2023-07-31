@@ -611,6 +611,8 @@ transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
     background: var(--iris-color, #4d5ae5);
     padding: 40px 32px;
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 .link-portfolio:hover .overlay,
 .link-portfolio:focus .overlay {
