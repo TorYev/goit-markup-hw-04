@@ -375,7 +375,7 @@ rgba(46, 47, 66, 0.7)), url(../images/hero-bg.jpg);
 display: flex;
   justify-content: center;
   align-items: center;
-  gap: 24px;
+  gap: 16px;
 }
 .social-item-icon{
   width: 40px;
@@ -395,6 +395,10 @@ display: flex;
 .social-links:hover,
 .social-links:focus{
   background-color: var(--ocean, #404bbf);
+}
+.footer-icon-container .social-links:hover,
+.footer-icon-container .social-links:focus{
+  background-color: var(--green, #31d0aa);
 }
 .card-icons {
   fill: var(--cloud);
@@ -451,6 +455,7 @@ display: flex;
 .ftr-page{
   background: var(--navy-blue);
   padding: 100px 0;
+  align-items: baseline;
 }
 .ftr-page .logotype {
   margin-bottom: 16px;
