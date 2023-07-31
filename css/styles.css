@@ -471,7 +471,6 @@ display: flex;
 .ftr-page{
   background: var(--navy-blue);
   padding: 100px 0;
-  align-items: baseline;
 }
 .ftr-page .logotype {
   margin-bottom: 16px;
@@ -483,9 +482,8 @@ display: flex;
 .footer-top{
 margin-right: 120px;
 }
-.container.ftr-page {
+.container-ftr-page {
   display: flex;
-  padding: 0;
   align-items: baseline;
 }
 .footer-icon-text{
