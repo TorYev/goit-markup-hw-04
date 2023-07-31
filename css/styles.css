@@ -444,7 +444,7 @@ display: flex;
   
 }
 .customers-icons{
-  fill: var(--light-slate);
+  fill: currentColor;
 }
 /* Footer */
 
